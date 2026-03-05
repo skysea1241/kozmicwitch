@@ -1,22 +1,19 @@
 {
-  "name": "react",
+  "name": "kozmicwitch",
   "version": "1.0.0",
   "dependencies": {
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0",
-    "react-scripts": "^5.0.0"
-  },
-  "devDependencies": {
-    "typescript": "^4.9.5"
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "4.0.3"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
+    "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
-  "browserslist": [">0.2%", "not dead", "not ie <= 11", "not op_mini all"],
-  "overrides": {
-    "ajv": "6.12.6"
+  "browserslist": {
+    "production": [">0.2%", "not dead", "not op_mini all"],
+    "development": ["last 1 chrome version", "last 1 firefox version", "last 1 safari version"]
   }
 }
