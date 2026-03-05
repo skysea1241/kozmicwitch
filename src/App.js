@@ -15,6 +15,16 @@ const CARDS = [
   { name: "The Gate",    symbol: "⬡", element: "Water", keywords: "threshold, initiation, no return" },
   { name: "The Silence", symbol: "◯", element: "Ether", keywords: "stillness, inner knowing, rest" },
   { name: "The Flame",   symbol: "△", element: "Fire",  keywords: "desire, will, what you cannot extinguish" },
+  { name: "The Tide",    symbol: "🝆", element: "Water", keywords: "cycles, emotional pull, surrender to flow" },
+  { name: "The Ash",     symbol: "⸸", element: "Earth", keywords: "endings, fertile ground, what remains" },
+  { name: "The Eye",     symbol: "𓂀", element: "Ether", keywords: "perception, witness, unseen forces watching" },
+  { name: "The Thorn",   symbol: "⚘", element: "Earth", keywords: "protection, beauty through pain, boundary" },
+  { name: "The Crow",    symbol: "♅", element: "Air",   keywords: "omen, intelligence, messenger between worlds" },
+  { name: "The Well",    symbol: "⊗", element: "Water", keywords: "depth, memory, what you draw from within" },
+  { name: "The Tower",   symbol: "⌘", element: "Fire",  keywords: "collapse, revelation, what was built on sand" },
+  { name: "The Knot",    symbol: "∞", element: "Air",   keywords: "entanglement, karma, what binds and what frees" },
+  { name: "The Bloom",   symbol: "✿", element: "Earth", keywords: "emergence, beauty, the self in full expression" },
+  { name: "The Abyss",   symbol: "▽", element: "Ether", keywords: "unknown depths, facing void, transformation through loss" },
 ];
 
 const NAV_LINKS = ["Home", "Moon", "Oracle", "Chart", "Writing", "Playlist", "About"];
