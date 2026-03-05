@@ -1,6 +1,7 @@
 [build]
-  command = "npm install ajv@6.12.6 --legacy-peer-deps && CI= react-scripts build"
+  command = "CI= react-scripts build"
   publish = "build"
 
 [build.environment]
   NPM_FLAGS = "--legacy-peer-deps"
+  NODE_OPTIONS = "--openssl-legacy-provider"
