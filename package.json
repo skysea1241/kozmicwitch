@@ -25,4 +25,7 @@
 ,
 "resolutions": {
   "ajv": "6.12.6"
-}}
+,
+"overrides": {
+  "ajv": "6.12.6"
+}
